@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arima', 'cursive';
+}
+
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    scroll-snap-align: start;
+}
+
+h1{
+    color: #d19c4e;
+}
+
+.one{
+    background-color: #fffcf6;
+}
+
+.two{
+    background-color: #fffcf6;
+}
+
+.three{
+    background-color: #fffcf6;
+}
+
+.four{
+    background-color: #fffcf6;
+}
+
+.five{
+    background-image: linear-gradient(to bottom, #fffcf6, #bab6b3, #797574, #3c3a3a, #000000);
+}
